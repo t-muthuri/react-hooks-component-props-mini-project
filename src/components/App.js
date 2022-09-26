@@ -11,6 +11,7 @@ function App() {
     <div>
       <Header header={blogData.name}/>
       <About about={blogData.about}/>
+      <Articlelist posts={blogData.posts}/>
     </div>
   );
 }
